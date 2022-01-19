@@ -27,7 +27,13 @@ print(name) # Prints Andrew
 You can print out variables or statements using the `print` function. Simply enter in a variable or value as an argument, and it will output on the console.
 
 ## Indentation
-Indentation in Python is very important :(.
+Indentation in Python is used to separate blocks of code. For example in an `if` statement,
+```py
+if x == y:
+    print("I am in the if statement block")
+print("I am outside the if statement block")
+```
+The second line of code is indented to show that it's in the `if` statement. The third line is not indented, so it's outside the `if` statement.
 ## If Statements
 ```py
 x = 1
