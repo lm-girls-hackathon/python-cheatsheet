@@ -89,3 +89,86 @@ colors = ["red", "green", "blue"]
 colors[1] = "white"
 print(colors) # Prints ["red", "white", "blue"]
 ```
+
+## Strings
+A string is an immutable sequence of characters.
+
+#### String Methods
+<table>
+<tr>
+<td>Return Type</td><td>Method</td><td>Description</td><td>Example</td>
+</tr>
+<tr>
+<td>
+
+`int`
+
+</td>
+<td>
+
+`count(s)`
+
+</td>
+<td>
+
+Returns the number of times `s` appears in the string.
+
+</td>
+<td>
+
+```py
+name = "cassandra"
+print(name.count("a")) #Prints 3
+```
+
+</td>
+</tr>
+<tr>
+<td>
+
+`int`
+
+</td>
+<td>
+
+`index(s)`
+
+</td>
+<td>
+
+Returns the first position of `s` in the string
+
+</td>
+<td>
+
+```py
+s = "abracadabra"
+print(s.index("ra")) # Prints 2
+```
+
+</td>
+</tr>
+<tr>
+<td>
+
+`bool`
+
+</td>
+<td>
+
+`islower()`
+    
+</td>
+<td>Returns True if all the characters in the string are lowercase, otherwise return False</td>
+<td>
+    
+```py
+greeting = "Hello"
+name = "cassandra"
+print(greeting.islower()) # Prints False
+print(naem.islower()) # Prints True
+```
+    
+</td>
+</tr>
+</table>
