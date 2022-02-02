@@ -118,7 +118,7 @@ Returns the number of times `s` appears in the string.
 
 ```py
 name = "cassandra"
-print(name.count("a")) #Prints 3
+print(name.count("a")) # Prints 3
 ```
 
 </td>
@@ -166,7 +166,74 @@ print(s.index("ra")) # Prints 2
 greeting = "Hello"
 name = "cassandra"
 print(greeting.islower()) # Prints False
-print(naem.islower()) # Prints True
+print(name.islower()) # Prints True
+```
+    
+</td>
+</tr>
+<tr>
+<td>
+
+`bool`
+
+</td>
+<td>
+
+`isupper()`
+    
+</td>
+<td>Returns True if all the characters in the string are uppercase, otherwise return False</td>
+<td>
+    
+```py
+greeting = "GOALSANDASPIRATIONS"
+name = "ProfessorSam"
+print(greeting.isupper()) # Prints True
+print(name.isupper()) # Prints False
+```
+    
+</td>
+</tr>
+<tr>
+<td>
+
+`str`
+
+</td>
+<td>
+
+`lower()`
+    
+</td>
+<td>Returns a lowercased version of the string</td>
+<td>
+    
+```py
+greeting = "Hello World"
+lowercased = greeting.lower()
+print(lowercased) # Prints hello world
+```
+    
+</td>
+</tr>
+<tr>
+<td>
+
+`str`
+
+</td>
+<td>
+
+`upper()`
+    
+</td>
+<td>Returns an uppercased version of the string</td>
+<td>
+    
+```py
+greeting = "Hello World"
+uppercased = greeting.upper()
+print(uppercased) # Prints HELLO WORLD
 ```
     
 </td>
